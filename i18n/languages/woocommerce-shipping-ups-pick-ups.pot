@@ -1,0 +1,71 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-02-14 15:29+0300\n"
+"PO-Revision-Date: 2015-11-26 15:54+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../classes\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-SearchPath-0: class-wc-shipping-ups-pick-ups.php\n"
+
+#: woocommerce-ups-ship-print-orders.php:52
+msgid "Sorry, you need to activate woocommerce first."
+msgstr ""
+
+#: woocommerce-ups-ship-print-orders.php:104
+msgid "Print WB Labels"
+msgstr ""
+
+#: woocommerce-ups-ship-print-orders.php:121
+msgid "Location Description"
+msgstr ""
+
+#: woocommerce-ups-ship-print-orders.php:162
+#: woocommerce-ups-ship-print-orders.php:189
+msgid "Printed"
+msgstr ""
+
+#: woocommerce-ups-ship-print-orders.php:172
+msgid "Printed <span class=\"count\">(%s)</span>"
+msgid_plural "Printed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce-ups-ship-print-orders.php:202
+#: woocommerce-ups-ship-print-orders.php:213
+msgctxt "WooCommerce Order status"
+msgid "Print Failed"
+msgstr ""
+
+#: woocommerce-ups-ship-print-orders.php:223
+msgid "Print Failed (%s)"
+msgid_plural "Print Failed (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Name of the plugin
+msgid "woocommerce-ups-ship-print-orders"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create Ship WB tracking number and Print labels"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://pick-ups.co.il/Print/Woo"
+msgstr ""
+
+#. Author of the plugin
+msgid "O.P.S.I (International Handling) Ltd"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://www.ship.co.il"
+msgstr ""

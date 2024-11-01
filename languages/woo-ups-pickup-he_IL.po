@@ -1,0 +1,278 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce UPS Israel PickUP Access Points (Stores and "
+"Lockers)\n"
+"POT-Creation-Date: 2018-01-23 18:12+0200\n"
+"PO-Revision-Date: 2018-01-23 18:12+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-ups-pickups.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wc-shipping-ups-pickup.php:165
+msgid "Your Shipping Method"
+msgstr "שיטת התשלום שלך"
+
+#: includes/class-wc-shipping-ups-pickup.php:169
+#: includes/class-wc-shipping-ups-pickup.php:485
+msgid "PickUP"
+msgstr "שירות איסוף PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:173
+msgid ""
+"Local PickUP is a simple method which allows the customer to pick up their "
+"order themselves at a specified pickup location."
+msgstr ""
+"איסוף מקומי PickUP היא שיטה פשוטה אשר מאפשרת ללקוח לאסוף את ההזמנה שלהם "
+"בעצמם במיקום איסוף ספציפי."
+
+#: includes/class-wc-shipping-ups-pickup.php:395
+#: includes/class-wc-shipping-ups-pickup.php:411
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#: includes/class-wc-shipping-ups-pickup.php:435
+msgid "Enable"
+msgstr "הפעלה/כיבוי"
+
+#: includes/class-wc-shipping-ups-pickup.php:439
+msgid "Enable PickUP"
+msgstr "לאפשר איסוף עצמי PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:443
+msgid "Enable realtime rates on Cart/Checkout page."
+msgstr "אפשר בזמן אמת המחירים בדף עגלת/יציאה."
+
+#: includes/class-wc-shipping-ups-pickup.php:453
+msgid "Pickup Service Options"
+msgstr "אפשרויות שירות האיסוף PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:463
+msgid "Stores & Lockers"
+msgstr "לוקרים & חנויות"
+
+#: includes/class-wc-shipping-ups-pickup.php:465
+msgid "Stores"
+msgstr "חנויות"
+
+#: includes/class-wc-shipping-ups-pickup.php:467
+msgid "Lockers"
+msgstr "לוקרים"
+
+#: includes/class-wc-shipping-ups-pickup.php:479
+msgid "Title"
+msgstr "כותרת"
+
+#: includes/class-wc-shipping-ups-pickup.php:483
+msgid "This controls the title which the user sees during checkout."
+msgstr "קבע את הכותרת שתוצג למשתמש במהלך התשלום."
+
+#: includes/class-wc-shipping-ups-pickup.php:495
+#: includes/class-wc-shipping-ups-pickup.php:695
+msgid "Cost"
+msgstr "מחיר"
+
+#: includes/class-wc-shipping-ups-pickup.php:499
+msgid ""
+"Default cost excluding tax. Enter an amount, e.g. 2.50, or leave empty for "
+"no default cost.  The default cost can be overriden by setting a cost per "
+"pickup location below."
+msgstr ""
+"ברירת מחדל לעלות לא כולל מס. הזן כמות, למשל 2.50, או השאר ריק אם אין ברירת "
+"מחדל לעלות. ברירת המחדל לעלות יכולה להיות רכובה על-ידי הגדרת עלות למיקום "
+"איסוף מטה."
+
+#: includes/class-wc-shipping-ups-pickup.php:511
+msgid "Hide Shipping Address"
+msgstr "הסתר כתובת למשלוח"
+
+#: includes/class-wc-shipping-ups-pickup.php:515
+msgid "Hide all Shipping fields except Billing fields."
+msgstr "הסתר כתובת למשלוח חוץ מכתובת חשבונית"
+
+#: includes/class-wc-shipping-ups-pickup.php:519
+msgid "Hide fields from Checkout Page."
+msgstr "עמוד התשלום"
+
+#: includes/class-wc-shipping-ups-pickup.php:529
+msgid "Shipping classes"
+msgstr "סוגי משלוח"
+
+#: includes/class-wc-shipping-ups-pickup.php:533
+msgid "Enter one or more shipping classes."
+msgstr "אחד או יותר"
+
+#: includes/class-wc-shipping-ups-pickup.php:547
+msgid "Shipping classes Only"
+msgstr "רק סוגי המשלוח האלה"
+
+#: includes/class-wc-shipping-ups-pickup.php:551
+msgid ""
+"Allow local pickup only for the shipping classes listed above, all other "
+"products must be shipped via another method."
+msgstr ""
+"לאפשר שיטת המשלוח PickUP רק עבור סוגי המשלוח המפורטים לעיל, כל המוצרים "
+"האחרים חייבים להישלח באמצעות שיטה אחרת."
+
+#: includes/class-wc-shipping-ups-pickup.php:561
+msgid "Don't Split Shipment "
+msgstr "על תפצל משלוח"
+
+#: includes/class-wc-shipping-ups-pickup.php:565
+msgid ""
+"Do not split your cart up into separate shipping packages for products that "
+"not using selected shipping classes."
+msgstr "אפשרות לא לבצע פיצול משלוח במידע ויש מוצרים שמוגדרים כסוג משלוח אחר"
+
+#: includes/class-wc-shipping-ups-pickup.php:573
+msgid "Don't show details about delivery point "
+msgstr "אל תציג פרטים על נקודת האספקה"
+
+#: includes/class-wc-shipping-ups-pickup.php:577
+msgid "Don't show details about delivery pointin checkout page ."
+msgstr "אל תציג פרטים על דף ההמחאה של משלוח המסירה."
+
+#: includes/class-wc-shipping-ups-pickup.php:673
+msgid "Pickup Locations"
+msgstr "מיקומי איסוף PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:695
+msgid ""
+"Cost for this pickup location, enter an amount, eg. 0 or 2.50, or leave "
+"empty to use the default cost configured above."
+msgstr ""
+"עלות עבור איסוף עצמי זה, הזן את הכמות, למשל. 0 או 2.50, או השאר ריק כדי "
+"להשתמש בעלות ברירת המחדל שהוגדר לעיל."
+
+#: includes/class-wc-shipping-ups-pickup.php:697
+msgid "Notes"
+msgstr "הערות"
+
+#: includes/class-wc-shipping-ups-pickup.php:697
+msgid ""
+"Free-form notes to be displayed below the pickup location on checkout/"
+"receipt.  HTML content is allowed."
+msgstr ""
+"הערות בצורה חופשית שיוצגו מתחת למיקומי האיסוף העצמי בקופה/בקבלה.  תוכן HTML "
+"מותר."
+
+#: includes/class-wc-shipping-ups-pickup.php:707
+msgid "+ Add Pickup Location"
+msgstr "+ הוסף מיקום איסוף עצמי PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:709
+msgid "Delete Pickup Location"
+msgstr "מחק מיקום איסוף עצמי PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:775
+#: includes/class-wc-shipping-ups-pickup.php:785
+#: includes/class-wc-shipping-ups-pickup.php:787
+#: includes/class-wc-shipping-ups-pickup.php:861
+#: includes/class-wc-shipping-ups-pickup.php:871
+#: includes/class-wc-shipping-ups-pickup.php:873
+msgid "(Optional)"
+msgstr "(אופציונלי)"
+
+#: includes/class-wc-shipping-ups-pickup.php:889
+msgid "Delete the selected pickup locations?"
+msgstr "האם למחוק את המיקומי איסוף שנבחרו?"
+
+#: includes/class-wc-shipping-ups-pickup.php:1777
+msgid "Please select a local pickup location"
+msgstr "נא בחר במיקום האיסוף העצמי"
+
+#: includes/class-wc-shipping-ups-pickup.php:1889
+#, php-format
+msgid ""
+"Some of your cart products are not eligible for local pickup, please remove "
+"%s, or select a different shipping method to continue"
+msgstr ""
+"חלק מהמוצרים בעגלה שלך אינם זכאים לאיסוף מקומי, נא הסר את %s או בחר שיטת "
+"משלוח שונה כדי להמשיך."
+
+#: includes/class-wc-shipping-ups-pickup.php:1901
+#, php-format
+msgid ""
+"Some of your cart products are only eligible for local pickup, please remove "
+"%s, or change the shipping method to %s to continue"
+msgstr ""
+"חלק מהמוצרים בעגלה שלך ניתן לקבל רק באיסוף עצמי,  אנא הסר את %1$s, או  שנה "
+"את שיטת המשלוח %2$s כדי להמשיך."
+
+#: includes/class-wc-shipping-ups-pickup.php:2077
+#: includes/class-wc-shipping-ups-pickup.php:2145
+#: includes/class-wc-shipping-ups-pickup.php:2381
+#: includes/class-wc-shipping-ups-pickup.php:2401
+#: includes/class-wc-shipping-ups-pickup.php:2567
+msgid "Pickup Location"
+msgid_plural "Pickup Locations"
+msgstr[0] "מיקום האיסוף PickUP"
+msgstr[1] ""
+
+#: includes/class-wc-shipping-ups-pickup.php:2481
+msgid "Pickup Locations not set"
+msgstr "לא נבחר את מיקום האיסוף שלך PickUP"
+
+#: includes/class-wc-shipping-ups-pickup.php:2601
+#, php-format
+msgid "Pickup location changed to %s"
+msgstr "מיקום האיסוף PickUP השתנה ל- %s"
+
+#: includes/class-wc-shipping-ups-pickup.php:2929
+msgid "Address 2"
+msgstr "כתובת 2"
+
+#: includes/class-wc-shipping-ups-pickup.php:2943
+msgid "Phone"
+msgstr "טלפון"
+
+#: woocommerce-ups-pickups.php:311
+msgid "Configure"
+msgstr "הגדר"
+
+#: woocommerce-ups-pickups.php:319
+msgid "Docs"
+msgstr "מסמכים"
+
+#: woocommerce-ups-pickups.php:327
+msgid "Support"
+msgstr "תמיכה"
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce UPS Israel PickUP Access Points (Stores and Lockers)"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://pickuppoint.co.il/Documentation/WP"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A shipping plugin for WooCommerce that allows the store operator to define "
+"local pickup locations, which the customer can then choose from when making "
+"a purchase."
+msgstr ""
+"תוסף שיטת המשלוח עבור WooCommerce של שירות PickUP מופעלת על ידי O.P.S.I – "
+"קבלן השירות המאושר של UPS בישראל מאפשר לבחור ללקוחות האתר נקודת האיסוף באזור "
+"מגוריכם ולאסוף את המוצר בדרך הביתה"
+
+#. Author of the plugin/theme
+msgid "O.P.S.I (International Handling) Ltd"
+msgstr "O.P.S.I – קבלן השירות המאושר של UPS בישראל"
+
+#. Author URI of the plugin/theme
+msgid "https://pickuppoint.co.il"
+msgstr ""

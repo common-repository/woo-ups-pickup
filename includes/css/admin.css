@@ -1,0 +1,67 @@
+.column-ups_actions .column-wc_actions .sync-to-ups:after {
+  content: "\f317";
+}
+
+.column-ups_actions .column-wc_actions .import-waybill:after {
+  content: "\f316";
+}
+
+.column-ups_actions .column-wc_actions .sync-and-print-a4:after {
+  content: '';
+  display: block;
+  background: url('../assets/a4label.svg') no-repeat center;
+  background-size: 60%;
+}
+
+.column-ups_actions .column-wc_actions .sync-and-print-thermal:after {
+  content: '';
+  display: block;
+  background: url('../assets/printer.svg') no-repeat center;
+  background-size: 60%;
+}
+
+.column-ups_actions .column-wc_actions .send-xml-file:after {
+  content: '';
+  display: block;
+  background: url('../assets/icon-xml.svg') no-repeat center;
+  background-size: 60%;
+}
+
+.column-ups_actions .column-wc_actions .change-pickup-point:after {
+  content: "\f327";
+}
+
+#change-pickup-point-btn {
+  display: none;
+}
+.change-pickup-point-form {
+  font-size: 16px;
+}
+.change-pickup-point-form .ups-pickups-48 {
+  float: none !important;
+}
+.change-pickup-point-form div.ups-pickups-info {
+  float: none;
+  padding: 10px 10px 10px 0;
+}
+
+.form-table .forminp .input-text.error {
+  border-color: #d65d67;
+}
+.form-table .forminp #woocommerce_woo-ups-pickups_api_username + .description:before,
+.form-table .forminp #woocommerce_woo-ups-pickups_integration_picking_username + .description:before{
+  content: '✔';
+  color: #4bb543;
+  font-style: normal;
+  margin-right: 5px;
+}
+.form-table .forminp .input-text.error + .description.error:before {
+  content: '✖' !important;
+  color: #d65d67 !important;
+  font-style: normal;
+  margin-right: 5px;
+}
+
+.wp-admin #woocommerce-order-items #order_shipping_line_items .name .pkpinfo + .view {
+  display: none !important;
+}

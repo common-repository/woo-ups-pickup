@@ -1,0 +1,1 @@
+jQuery( document.body ).on( "updated_shipping_method", function() { location.reload(); } );

@@ -1,0 +1,129 @@
+.ups-print-icon {
+	display: block;
+	text-indent: -9999px;
+	position: relative;
+	padding: 0 !important;
+	height: 2em !important;
+	width: 2em;
+	border-color: #313fcc !important;
+}
+
+.ups-print-icon:after {
+	content: '';
+	background: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHgAAAB4CAMAAAAOusbgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAwBQTFRFcqJDW4NBtLTYamqzGSJTOEZsHSFxfrFCj4/HdHW3HiJ0mpvJanCSU2h3wsTSwMDdISV5LzCSBA1EwsPggbJNU3dAFCNElpm37/DzEhhdV3ZWCRFO+fn8MjKXQ0uIGR5rR1WDMzp4fK1JTWNuuLrJpqm8XHlsbJRY6enzRmdAu7vcq6zLdqRLLi+QiL9EHzNDPkWNFBphLjGEPFpAYoNibZpCjMRD4uPp+Pj7qqzEOTyUe6pRHyN2S1OBgLREMzaHYoxBh79CPT2dJymDZWuMKDVbKyyKWnNxLS6O/Pz9hblJKT5JT0+mRUWiCRRCra3VisFFKzVoLjR5YYdQdHmXzM7ZMzOZQUGg5ubu3+DoVViQJCd+DRVVFxxmJi1c19fqioyyKiyJQlVpZItOJSt0IDRCYmWfEBdaisJCzc3lsrLUNDWZHC1FW1usjJCtJDpCpaXRMjxpYH1rZZFBGyBuaYtkO0R/eaZVgoajKiuIM01CLC6N29zmERxL8PH0Ki58ChJPp6rC1tjgHiZXhrxEIyZ8HSNjS1uBFhtkdqFXW2GH4eHvKCqF2dnr2Nrh0tLoi4+rUFCmJSh/SkqlQklx7u/zLENBQECeCBBLMzWWg7hCCxhCExlfDxZYjcZC////KS2BDBRTBxBGMzOYMjOYMDGUMTKWMTGVKSuHMjKYKCqGDBNSMDCTLzCR8fL0JSiALC2M1tbpBxBJJiiBKSuGERhbLi+PycnjJyqE/v7+/f3+/v7/4uLwgrRM6+zwMzSZg7dGNTaYysrks7PYT2hlKy6Ij5OyUFOTr7HQUGJ90dPci8NDHyphUm5dY2OwVlx+NjiWxMbYFydBaJVBJy5j7Oz19PT3Fh9Qh4i24+Tt5ebrpKXNvsHO8vL29/f5cJxNdJ1ZRFCFTlKMKCuDQEduhrxCgIWgio+nUVGodnmk8PD3SEijaW6PGCBY2NnkMjKUY2eYZ2yUQ1taa2+ex8naycvWNTiPCxRIhIeyg4O+bXKQgLFL1NTp3N7lYGaGnKC2XCsjJwAAB/dJREFUeNrsmml0E1UUgCOUYIPLZChrGQoqyJbaCK1SQkEGwrAUBbGIacQgGBRRhIiGihZrNGBB2WyBNjWZTCZpExLSUgGVRdwQRcV9F/cNRRFQcHuTQuclnQlvpiH+yfeDcyjn8eXN3HffvbdRFP1PKFLilDglTolT4pQ4JU6JE0D+wV6nOJiznk6i+JF9jtMMO/+Yh6CTJc5Z5uDpG/B73EkSew6e5MVzntdrWHdSxDRLXZzNm3fNtGo8dHJ2TJHd83jzRe1MgTjmBIoJTcOsa6HX/FlvvZpIhtjHhAyTFZD55ikhP5GMBEKoTbZ2Bbw4r/uTJYwvCWLao/Fiv13Fmx96fislFtoJTZlulto6qzv0sAtmNoiFdmJztY8pqZ98swMObatIaJ9RPDe/59i7l53MyHh2fCzPZghw8qJdkNgxSCy0zyDenTN22L48Ryu4VCS044p35vQd72gl+4YIh3Y88Rt7hzlaT/ZrTwqFdhxx/oJrHIlg18xygftCXJx/tyNBXItZAwSyOHFeR3eLIcS4EcW7++Ylytt+gl3nVfsQxY+MT5T368WlVaqtGgJNnPN5orz7+ruAuBxRvPP8mAeteGtkbvuC9lEU5C4UYuRC6IJy5HWaFC42YlbER51zD2wt6H/ngc6dD1wWw2zwQwGWLN4ArV3YGS+tUgZLWBpJvBfe8MgDOO6qLI0lk/ujriVpudBixWV45pYsm0mNdpyijtI5G/FwqdNcpQVURaPV2lvwKnw5bXgCr6w2Yl6Bu1FQnJPBr83diFc6q4wWlY5DBcP9AIthFlzvfT0YBy9YV46cMg9CwTEbfGa7Eqsv9wJqo/F6raZoXoAr3Dn98bBTqyIp5EtiLxQcG8FnVgVNlEbtVwMCPNxf/X4mil4Z0S+prkq5OsSgXovusfziwa468JlDfo/PTdPuWOgYok5D7gG8tJvFJqEQ8C3gVz9RaeYyLYHWL14KZ8rZeKY5CxPrJ4TExBB++Z11XKJF8xYtiMqUkYCulVLsweIJxVm2EEsjefdCgZUHAqvYrpNW3npgcbUlSKFtuCd0r8zpNAkEh7JeWkEfJTYrSQ2auNeyYYMGKSKMHAy8VSA4pLUwLcQ+JPH6RYvuGjPmdg6Q7ICXy5S0bPEWZDFLkTqj2VnHpXBntdZi82oktqlyxY21mMVo53K63ZilMnjjjgQSKCbUIdKGRVK6DjNsDUkfRcgU+9gApbdyKR2k8JBGxvBFppj2eVgmktDVfob1+KSPmzxDsrOzr2pCgphz06dzuKzJnocKWsyZOEdToYYs5hlQ06OJpx/tILh7wZTZSKrs1XWR0sYM6ge1W/pwoGPNafp9VKJhCKQKhAiYbEqjNnIuslTBll0AQqDx4us71JsQeyc3Q3mDTQcDs5H6uHMysaN1YbP4gy5KA2KxRxOMpkRvsgJMIUrNynjFHl58xYug6tKgVZk0AQ7GKVhChreIhcR3dLOQlEfG8GXUj4URfpw2V5b4cXNWUIZ43vyOzz0V4bmn0mnCR0sXV8sRp6+o4fkzEGAJ6Y9azo7nPQp5B44gQ4gh3tpHveZWyPt7b4uOLEE71Cx/jv++V7p4VJunee/04Wa70oCYTUbxn/jBqWaLRPHcDuN4b9fRmU6tUL8pSNt+zQuPLpcq3vnnD7y3xzcurv8CZTKKd+d8/lFd0s4MzjEhQdz2Gd67rc97ZyhXxTa8rcvb3YQKVXHxvMegwHpzDNcHxStXxZbuWH5IqyqXIF7TEfKuXMv1QXHLVSiw2s6All5X5rTrWo5ARMUVV0OLu051HXp41uXH8iumVRR+NzGKVasKR01rpqJw4v75V0JLx30b5poghkYU7z4XXv1hn3+XDh348m172rTZM2DF5ihmzLjw6jbN7BmwuSaKlZMzQfHUMqjFxOnv1CSE7d+4RNpNYfH+ZxLjrfk4rdKcZRBqNwXFE/9KkPfDtTjYcK1Q16cQzJQJ8r47GhwGi3CaFRLv3w4t/nSbbO+mE1y2w7wB1OFLetRq2eLp/7iapk2C6V1ATK/qB8elXO8lX7lAk6wUy3ZC4l/Se7T69a48kYaHnU3NOWoL4/Y3vr+9Fc5t43oc/elGF55ZrAUVtYSpD83oL+8yDk57m9bd3/U092+Khf83jh2v9Dlx1xIXXuncYlRxXglTH5YipwyF9nzF65PSmim7MZayNIglx48fx13cuNduwciQWrRJFuyd1HrbogugLV9Qhocz4VF1NLGT7Lpic5XRolvtpRhpw5fI74G/+BkyDz0E/i80IgMQiwoLekviNj8K4d8DN5brDu+A3vIdD2cpdYhgmKG+3ESBEpyW2Jhz4wyK1H3/CXQjH1HZyFpvEw0NUVPrhgYvjNWkD1EahpX3zRcfU0JiN0HH+b6XgnqN+sz4uQk2SxCyv+tD+EOGB5bCVVeOKeBx09ycQwDp/aRCfGqlt/V+Ew6wEYilXivFILStWM/7oMr6jy8Ri9vWiTlzA3bDOijAbilvZN1nXxz5coXuCJTBpr/klTMPkSwGoU2R2GHoad9Ur1cTSRAXEUwoqJoy/KfREc77tbfYrZ5oMRfaBqW2urQyHA5XloJrbrWcoZcMMc2ZVUbtFnN1tRlkfnnTNhliENrcEFqntHAodbaGJD1qzuyn9LUkWQ8gQer3E0kSc8M2JqBppACNGjXjcRclSRyZgBOn8LnpoiSKzwopcUqcEqfEKTEy/wkwAKWy7IpNbBJzAAAAAElFTkSuQmCC');
+	text-indent: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	line-height: 1.85;
+	margin: 0;
+	text-align: center;
+	speak: none;
+	font-variant: normal;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	top: 0;
+	background-size: 1.7em;
+	background-position: center;
+}
+
+td.ups-print-row {
+	padding: 10px 20px 35px;
+	background-color: rgba(244, 224, 201, 0.22);
+	border-top: 1px solid #d0d0d0;
+	border-bottom: 1px solid #d0d0d0;
+}
+
+.ups-print-fieldset {
+	float: left;
+	margin: 0 1.5em 1em 0;
+	padding-right: 20px!important;
+}
+
+.ups-print-fieldset .ups-print-labels-checkbox {
+	display: block;
+	margin-bottom: 5px;
+	margin-top: 7px;
+}
+
+.ups-print-fieldset.ups-print-inline label {
+	padding-top: 7px;
+	display: inline-block;
+}
+
+.ups-print-fieldset.ups-print-recipient-form {
+	width: 100%;
+	float: left;
+}
+
+.ups-print-fieldset.ups-print-recipient-form label {
+	float: left;
+}
+
+.ups-print-fieldset.ups-print-recipient-form label span {
+	display: block;
+	margin-top: 7px;
+	margin-bottom: 3px;
+	color: #777;
+}
+
+.ups-print-fieldset .ups-print-labels-radio {
+	margin-left: 20px;
+}
+
+.ups-print-fieldset legend {
+	font-weight: bold;
+}
+
+.ups-print-fieldset label {
+	padding: 0 10px 0 0
+}
+
+.ups-print-labels {
+	
+}
+
+.ups-print-labels label {
+	display: block;
+	padding: 0 0 3px;
+	color: #777;
+	margin-top: 7px;
+}
+
+.ups-print-labels input {
+	margin-bottom: 10px;
+}
+
+.ups-print-submit {
+	display: block!important;
+	clear: both!important;
+}
+
+
+.widefat .column-order_status mark.printfailed:after,
+.widefat .column-order_status mark.printed:after{
+	font-family:WooCommerce;
+	speak:none;
+	font-weight:400;
+	font-variant:normal;
+	text-transform:none;
+	line-height:1;
+	-webkit-font-smoothing:antialiased;
+	margin:0;
+	text-indent:0;
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+.widefat .column-order_status mark.printfailed:after{
+	content:"\e012";
+	color:#ff0000;
+}
+.widefat .column-order_status mark.printed:after{
+	content:"\e017";
+	color: #1f23ff;
+}
